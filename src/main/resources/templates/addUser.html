@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:action="@{/user/addUser}" method="post">
+        <input name="name" placeholder="name"><br>
+        <input name="age" placeholder="age"><br>
+        <input name="sex" placeholder="sex"><br>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>
